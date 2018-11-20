@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
-import AnsiPlay from "./components/layout/AnsiPlay";
+import BizHash from "./components/layout/BizHash";
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <div className="container">
-            <Route exact path="/" component={AnsiPlay} />
+            <Route exact path="/" component={BizHash} />
           </div>
           <Footer />
         </div>

@@ -32,7 +32,7 @@ img {
   height: 100% !important;
 }
 .logger-area {
-  height: 400px !important;
+  height: 80px !important;
   background-color: rgba(0, 0, 0, 0.8);
   color: teal;
   overflow: auto;
