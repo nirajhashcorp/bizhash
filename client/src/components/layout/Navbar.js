@@ -11,7 +11,7 @@ export default () => {
             alt=""
             style={{ width: "100px" }}
           />{" "}
-          BizHash
+          BusinessHash
         </Link>
         <button
           className="navbar-toggler"

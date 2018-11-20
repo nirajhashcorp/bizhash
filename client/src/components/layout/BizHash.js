@@ -136,12 +136,16 @@ class BizHash extends Component {
       <div className="register">
         <div className="container">
           <div className="row">
+            <div className="col-md-12">
+              <h4>Store the Hash</h4>
+            </div>
             <div className="col-md-10">
               <TextFieldGroup
                 placeholder="Enter Hash of the Document"
                 name="dochash1"
                 value={this.state.dochash1}
                 onChange={this.onChange}
+                info="Enter Hash of the Document"
               />
             </div>
             <div className="col-md-2">
@@ -162,6 +166,9 @@ class BizHash extends Component {
           </div>
           <hr />
           <div className="row">
+            <div className="col-md-12">
+              <h4>Get the Hash</h4>
+            </div>
             <div className="col-md-10">
               <TextFieldGroup
                 placeholder="Enter the receipt ID"
@@ -188,6 +195,9 @@ class BizHash extends Component {
           </div>
           <hr />
           <div className="row">
+            <div className="col-md-12">
+              <h4>Verify the Hash</h4>
+            </div>
             <div className="col-md-5">
               <TextFieldGroup
                 placeholder="Enter the receipt ID"
@@ -198,7 +208,7 @@ class BizHash extends Component {
             </div>
             <div className="col-md-5">
               <TextFieldGroup
-                placeholder="Enter the Hash"
+                placeholder="Enter the Document Hash"
                 name="dochash2"
                 value={this.state.dochash2}
                 onChange={this.onChange}
